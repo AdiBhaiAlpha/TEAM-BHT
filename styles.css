@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif; /* Default font */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Dark background */
+    color: #ffffff; /* Light text color */
+}
+
+/* Header Styles */
+header {
+    background: #222; /* Header background color */
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #ff4500; /* Link color */
+    text-decoration: none;
+}
+
+/* Hero Section */
+#hero {
+    background: url('your-hero-image-url') no-repeat center center/cover; /* Background image */
+    color: #f0f0f0;
+    padding: 100px 20px; /* Padding for hero section */
+    text-align: center;
+}
+
+.cta-button {
+    background: #ff4500; /* Call to action button color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background: #333; /* Darker section background */
+}
+
+/* Project Card Styles */
+.project-card {
+    background: #444; /* Card background color */
+    border: 1px solid #555; /* Border color */
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.project-card h3 {
+    margin-top: 0;
+}
+
+.project-card a {
+    color: #ff4500; /* Link color in project cards */
+    text-decoration: none;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #555; /* Input border color */
+    border-radius: 5px;
+    background: #222; /* Input background color */
+    color: #fff; /* Input text color */
+}
+
+form button {
+    background: #ff4500; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+    background: #222; /* Footer background color */
+    color: #ccc; /* Footer text color */
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 600px) {
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
