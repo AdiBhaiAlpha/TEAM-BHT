@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BHT Crew Recruitment</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, red, black);
+            color: #fff; /* Default text color */
+            transition: color 0.5s, background 0.5s;
+        }
+
+        /* Container Styling */
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: rgba(0, 0, 0, 0.8); /* Semi-transparent black box */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Header Styling */
+        .header {
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 28px;
+            text-transform: uppercase;
+            color: #ffcc00; /* Highlighted text color */
+        }
+        .header img {
+            width: 100px;
+            margin: 10px 0;
+        }
+
+        /* Content Styling */
+        .content h2 {
+            color: #ffcc00;
+            font-size: 20px;
+            text-decoration: underline;
+        }
+        .content ul {
+            list-style: none;
+            padding: 0;
+        }
+        .content ul li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+        .content ul li::before {
+            content: "🔹";
+            position: absolute;
+            left: 0;
+            color: #ffcc00;
+        }
+
+        /* Button Styling */
+        .apply-btn {
+            display: block;
+            width: fit-content;
+            margin: 30px auto;
+            padding: 15px 30px;
+            text-align: center;
+            background: #ff0000;
+            color: #fff;
+            font-size: 18px;
+            font-weight: bold;
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+            text-transform: uppercase;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+        .apply-btn:hover {
+            background: #990000;
+            color: #ffcc00;
+        }
+        .apply-btn1 {
+        display: block;
+        width: fit-content;
+        margin: 30px auto;
+        padding: 15px 30px;
+        text-align: center;
+        background: #ff0000;
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        border: none;
+        border-radius: 8px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+        text-transform: uppercase;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        cursor: pointer;
+        }
+        .apply-btn1:hover {
+        background: #990000;
+        color: #ffcc00;
+        }
+        
+
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+        }
+        .modal-content {
+            background-color: #fff;
+            width: 80%;
+            max-width: 800px;
+            height: 80%;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .close {
+            color: #aaa;
+            font-size: 28px;
+            font-weight: bold;
+            position: absolute;
+            top: 10px;
+            right: 25px;
+            transition: color 0.3s ease;
+        }
+        .close:hover,
+        .close:focus {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        /* Contact Section Styling */
+        .contact {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 16px;
+        }
+        .contact a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <script>
+        function openModal() {
+            document.getElementById("modal").style.display = "flex";
+        }
+
+        function closeModal() {
+            document.getElementById("modal").style.display = "none";
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://surveyheartmedia.s3.ap-south-1.amazonaws.com/logos/dip200789@gmail.com_logo.png?r=0.13557018648951646" alt="BHT Logo">
+            <h1>Black Hunter Team</h1>
+            <p>Official Crew Recruitment Notice</p>
+        </div>
+        <div class="content">
+            <h2>আমাদের প্রস্তাব</h2>
+            <ul>
+                <li>সাইবার সিকিউরিটির মূল বিষয়গুলো।</li>
+                <li>নেটওয়ার্ক সিকিউরিটি এবং হ্যাকিং প্রতিরোধের কৌশল।</li>
+                <li>ডেটা সুরক্ষা এবং এনক্রিপশন।</li>
+                <li>প্রাক্টিক্যাল ট্রেনিং এবং লাইভ প্রজেক্ট।</li>
+            </ul>
+
+            <h2>যা আমরা খুঁজছি</h2>
+            <ul>
+                <li>শেখার আগ্রহ এবং ধৈর্য।</li>
+                <li>সাইবার সিকিউরিটিতে ক্যারিয়ার গড়ার মানসিকতা।</li>
+                <li>দায়িত্বশীল এবং দলগতভাবে কাজ করার দক্ষতা।</li>
+            </ul>
+
+            <p><strong>আবেদন করার সময় সীমা:</strong> 15-01-2025</p>
+            <button class="apply-btn" onclick="openModal()">Apply Now</button>
+           	<button class="apply-btn1" onclick="window.open('https://t.me/blackhunterteam_bot', '_blank')">Apply via Telegram Bot</button>
+        </div>
+        <div class="contact">
+            <p><strong>যোগাযোগ:</strong></p>
+            <p>📞 <a href="tel:+8801316655254">Call us for more details</a></p>
+            <p>📧 <a href="mailto:chowdhuryadityo@gmail.com">chowdhuryadityo@gmail.com</a></p>
+            <p>🤖 <a href="https://t.me/blackhunterteam_bot" target="_blank">Join via Telegram Bot</a></p>
+        </div>
+    </div>
+
+    <!-- Modal for iframe -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <iframe src="https://surveyheart.com/form/677cd837ce34813c4ed7dc92"></iframe>
+        </div>
+    <div id="modal" class="modal1">
+    <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <iframe src="https://surveyheart.com/form/677cd837ce34813c4ed7dc92"></iframe>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
